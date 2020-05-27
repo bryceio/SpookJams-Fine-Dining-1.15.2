@@ -1,0 +1,115 @@
+
+# CobbleGenPlus Server-Side Configurations
+["Bedrock Wildcard"]
+	# Cobblestone Spawn Chance (from Bedrock).
+	#Range: 0.0 ~ 1.0
+	cobblestoneBedrockWeight = 0.75
+	# Coal Ore Spawn Chance (from Bedrock).
+	#Range: 0.0 ~ 1.0
+	coalOreBedrockWeight = 0.15
+	# Nether Quartz Ore Spawn Chance (from Bedrock).
+	#Range: 0.0 ~ 1.0
+	netherQuartzOreBedrockWeight = 0.0
+	# Iron Ore Spawn Chance (from Bedrock).
+	#Range: 0.0 ~ 1.0
+	ironOreBedrockWeight = 0.1
+	# Redstone Ore Spawn Chance (from Bedrock).
+	#Range: 0.0 ~ 1.0
+	redstoneOreBedrockWeight = 0.05
+	# Lapis Lazuli Ore Spawn Chance (from Bedrock).
+	#Range: 0.0 ~ 1.0
+	lapisLazuliOreBedrockWeight = 0.03
+	# Gold Ore Spawn Chance (from Bedrock).
+	#Range: 0.0 ~ 1.0
+	goldOreBedrockWeight = 0.02
+	# Diamond Ore Spawn Chance (from Bedrock).
+	#Range: 0.0 ~ 1.0
+	diamondOreBedrockWeight = 0.005
+	# Emerald Ore Spawn Chance (from Bedrock).
+	#Range: 0.0 ~ 1.0
+	emeraldOreBedrockWeight = 0.005
+
+["Ore from Block"]
+	# Coal Ore Spawn Chance (from Coal Block).
+	#Range: 0.0 ~ 1.0
+	coalOreBlockChance = 1.0
+	# Nether Quartz Ore Spawn Chance (from Nether Quartz Block).
+	#Range: 0.0 ~ 1.0
+	netherQuartzOreBlockChance = 1.0
+	# Iron Ore Spawn Chance (from Iron Block).
+	#Range: 0.0 ~ 1.0
+	ironOreBlockChance = 0.5
+	# Redstone Ore Spawn Chance (from Redstone Block).
+	#Range: 0.0 ~ 1.0
+	redstoneOreBlockChance = 0.5
+	# Lapis Lazuli Ore Spawn Chance (from Lapis Lazuli Block).
+	#Range: 0.0 ~ 1.0
+	lapisLazuliOreBlockChance = 0.3
+	# Gold Ore Spawn Chance (from Gold Block).
+	#Range: 0.0 ~ 1.0
+	goldOreBlockChance = 0.2
+	# Diamond Ore Spawn Chance (from Diamond Block).
+	#Range: 0.0 ~ 1.0
+	diamondOreBlockChance = 0.05
+	# Emerald Ore Spawn Chance (from Emerald Block).
+	#Range: 0.0 ~ 1.0
+	emeraldOreBlockChance = 0.05
+
+[Stone]
+	# Enable Andesite.
+	enableAndesite = true
+	# Enable Diorite.
+	enableDiorite = true
+	# Enable End Stone.
+	enableEndStone = true
+	# Enable Granite.
+	enableGranite = true
+	# Enable Stone.
+	enableStone = true
+
+[General]
+	# Enable Dirt.
+	enableDirt = false
+	# Enable Gravel.
+	enableGravel = true
+	# Enable Lava.
+	enableLava = true
+	# Enable Obsidian.
+	enableObsidian = false
+
+[Sand]
+	# Enable Red Sand.
+	enableRedSand = false
+	# Enable Red Sandstone.
+	enableRedSandstone = true
+	# Enable Sand.
+	enableSand = false
+	# Enable Sand (from Glass).
+	enableSandFromGlass = false
+	# Enable Sandstone.
+	enableSandstone = true
+	# Enable SoulSand (from Red Sandstone.
+	enableSoulSandFromRedSandstone = false
+
+["Skyblock Inspired"]
+	# Enable Gravel (from Cracked Stone Bricks).
+	enableCrackedStoneBricks = true
+	# Enable Slime (from Mossy Stone Bricks).
+	enableMossyStoneBricks = true
+	# Enable Red Sand (from Granite).
+	enableRedSandFromGranite = true
+
+[Wildcards]
+	# Enable Ore Wildcard (from Bedrock).
+	enableWildBedrock = true
+	# Enable Stone Wildcard (from Chiseled Stone Bricks).
+	enableWildStone = true
+
+["Easter Eggs"]
+	# Enable Easter Eggs.
+	enableEasterEggs = true
+	# Enable Extra Easter Eggs.
+	enableExtraEasterEggs = false
+	# Enable TNT Easter Egg.
+	enableTNTEasterEgg = false
+
