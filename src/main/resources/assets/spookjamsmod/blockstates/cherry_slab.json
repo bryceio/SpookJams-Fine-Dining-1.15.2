@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "spookjamsmod:block/cherry_slab" },
+        "type=top": { "model": "spookjamsmod:block/cherry_slab_top" },
+        "type=double": { "model": "spookjamsmod:block/cherry_planks" }
+    }
+}

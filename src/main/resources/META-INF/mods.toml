@@ -1,0 +1,40 @@
+modLoader="javafml" #mandatory
+
+loaderVersion="[31,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+
+[[mods]] #mandatory
+
+modId="spookjamsmod" #mandatory
+
+version="1.4" #mandatory
+
+displayName="SpookJams Fine Dining" #mandatory
+
+logoFile="SpookJams.png" #optional
+
+credits="Credit to ciabatta1 and MoaOxii for the textures of several of the items. Credit to Jammy for the mod logo." #optional
+
+authors="bryceio" #optional
+
+description='''
+Various foods and things to add to the Minecraft world from SpookJams Inc.
+'''
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.spookjamsmod]] #optional
+    # the modid of the dependency
+    modId="forge" #mandatory
+    # Does this dependency have to exist - if not, ordering below must be specified
+    mandatory=true #mandatory
+    # The version range of the dependency
+    versionRange="[31,)" #mandatory
+    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+    ordering="NONE"
+    # Side this dependency is applied on - BOTH, CLIENT or SERVER
+    side="BOTH"
+# Here's another dependency
+[[dependencies.spookjamsmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"

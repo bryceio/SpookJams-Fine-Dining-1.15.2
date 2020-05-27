@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y":   { "model": "spookjamsmod:block/cherry_log" },
+        "axis=z":   { "model": "spookjamsmod:block/cherry_log", "x": 90 },
+        "axis=x":   { "model": "spookjamsmod:block/cherry_log", "x": 90, "y": 90 }
+    }
+}

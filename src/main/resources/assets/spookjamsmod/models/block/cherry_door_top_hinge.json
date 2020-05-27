@@ -1,0 +1,7 @@
+{
+    "parent": "block/door_top_rh",
+    "textures": {
+        "bottom": "spookjamsmod:blocks/cherry_door_bottom",
+        "top": "spookjamsmod:blocks/cherry_door_top"
+    }
+}
