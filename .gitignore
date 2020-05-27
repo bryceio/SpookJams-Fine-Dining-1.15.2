@@ -14,12 +14,19 @@ out
 .idea
 
 # gradle
+gradle
 build
 .gradle
+build.gradle
+gradle.properties
+gradlew
+gradlew.bat
 
 # other
 eclipse
 run
+.gitignore
+.gitattributes
 
 # Files from Forge MDK
 forge*changelog.txt
