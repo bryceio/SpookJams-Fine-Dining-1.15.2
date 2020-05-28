@@ -3,6 +3,7 @@ package com.bryceio.spookjamsmod.lists;
 import com.bryceio.spookjamsmod.Main;
 import com.bryceio.spookjamsmod.objects.items.BattleCiabatta;
 import com.bryceio.spookjamsmod.objects.items.BreadSingularity;
+import com.bryceio.spookjamsmod.objects.items.CherrySignItem;
 import com.bryceio.spookjamsmod.objects.items.UltraDenseBread;
 
 import net.minecraft.item.ItemGroup;
@@ -29,4 +30,5 @@ public class ItemList
     public static final RegistryObject<Item> ULTRADENSELOAF = ITEMS.register("ultradense_loaf", UltraDenseBread::new);
     public static final RegistryObject<Item> BREADSINGULATIRY = ITEMS.register("bread_singularity", BreadSingularity::new);
     public static final RegistryObject<Item> BATTLEBREAD = ITEMS.register("battle_ciabatta", BattleCiabatta::new);
+    public static final RegistryObject<Item> CHERRYSIGNITEM = ITEMS.register("cherry_sign", CherrySignItem::new);
 }

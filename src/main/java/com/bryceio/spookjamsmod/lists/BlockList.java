@@ -1,6 +1,8 @@
 package com.bryceio.spookjamsmod.lists;
 
 import com.bryceio.spookjamsmod.objects.blocks.CustomWoodButtonBlock;
+import com.bryceio.spookjamsmod.objects.blocks.StandingCherrySign;
+import com.bryceio.spookjamsmod.objects.blocks.WallCherrySign;
 import com.bryceio.spookjamsmod.world.feature.CherryTree;
 import com.bryceio.spookjamsmod.objects.blocks.CustomTrapDoorBlock;
 import net.minecraft.block.FenceGateBlock;
@@ -39,4 +41,7 @@ public class BlockList{
     public static final RegistryObject<Block> CHERRYBUTTON = BLOCKS.register("cherry_button", () -> new CustomWoodButtonBlock(Block.Properties.from(CHERRYPLANK.get()).doesNotBlockMovement()));
 
     public static final RegistryObject<Block> CHERRYSAPLING = BLOCKS.register("cherry_sapling", () -> new CustomSaplingBlock(() -> new CherryTree(), Block.Properties.from(Blocks.OAK_SAPLING)));
+    //Possibly replace null with a woodtype
+    public static final RegistryObject<Block> CHERRYSIGN = BLOCKS.register("cherry_sign", StandingCherrySign::new);
+    public static final RegistryObject<Block> CHERRYWALLSIGN = BLOCKS.register("cherry_wall_sign", WallCherrySign::new);
 }

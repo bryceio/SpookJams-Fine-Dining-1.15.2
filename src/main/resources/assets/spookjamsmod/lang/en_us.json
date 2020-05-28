@@ -15,6 +15,7 @@
 	"item.spookjamsmod.ultradense_loaf": "Ultradense Loaf",
 	"item.spookjamsmod.battle_ciabatta": "Battle Ciabatta",
 	"item.spookjamsmod.bread_singularity": "Bread Singularity",
+	"item.spookjamsmod.cherry_sign": "Cherry Sign",
 	
 	"block.spookjamsmod.cherry_leaves": "Cherry Leaves",
 	"block.spookjamsmod.cherry_planks": "Cherry Planks",
@@ -29,6 +30,8 @@
 	"block.spookjamsmod.cherry_trapdoor": "Cherry Trapdoor",
 	"block.spookjamsmod.cherry_button": "Cherry Button",
 	"block.spookjamsmod.cherry_sapling": "Cherry Sapling",
+	"block.spookjamsmod.cherry_sign": "Standing Cherry Sign",
+	"block.spookjamsmod.cherry_wall_sign": "Wall Cherry Sign",
 	
 	"biome.spookjamsmod.cherry_forest": "Cherry Woods"
 }

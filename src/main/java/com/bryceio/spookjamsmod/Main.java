@@ -56,6 +56,7 @@ public class Main{
                 blockItem.setRegistryName(block.getRegistryName());
                 registry.register(blockItem);
             }
+            else if (block == BlockList.CHERRYWALLSIGN.get() || block == BlockList.CHERRYSIGN.get()) {}
             else {
                 final Item.Properties properties = new Item.Properties().group(ItemGroup.BUILDING_BLOCKS);
                 final BlockItem blockItem = new BlockItem(block, properties);

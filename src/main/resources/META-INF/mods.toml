@@ -6,7 +6,7 @@ loaderVersion="[31,)" #mandatory This is typically bumped every Minecraft versio
 
 modId="spookjamsmod" #mandatory
 
-version="1.4" #mandatory
+version="1.4.2" #mandatory
 
 displayName="SpookJams Fine Dining" #mandatory
 

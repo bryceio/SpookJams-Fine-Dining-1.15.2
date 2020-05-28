@@ -31,10 +31,10 @@ public class CustomSaplingBlock extends BushBlock implements IGrowable{
 	}
 	
 	@Override
-	public VoxelShape getShape(BlockState stae, IBlockReader worldIn, BlockPos pos, ISelectionContext context) {
+	public VoxelShape getShape(BlockState state, IBlockReader worldIn, BlockPos pos, ISelectionContext context) {
 		return SHAPE;
 	}
-	
+
 	@SuppressWarnings("deprecation")
 	@Override
 	public void tick(BlockState state, ServerWorld worldIn, BlockPos pos, Random rand) {
