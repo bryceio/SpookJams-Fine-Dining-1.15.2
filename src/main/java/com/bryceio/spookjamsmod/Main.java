@@ -2,6 +2,7 @@ package com.bryceio.spookjamsmod;
 
 import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import net.minecraft.client.renderer.RenderTypeLookup;
+import net.minecraft.client.renderer.tileentity.SignTileEntityRenderer;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -11,6 +12,7 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.world.biome.Biome;
 import net.minecraftforge.fml.RegistryObject;
+import net.minecraftforge.fml.client.registry.ClientRegistry;
 import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -18,6 +20,8 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import com.bryceio.spookjamsmod.lists.BiomeList;
 import com.bryceio.spookjamsmod.lists.BlockList;
 import com.bryceio.spookjamsmod.lists.ItemList;
+import com.bryceio.spookjamsmod.lists.TileEntityTypeList;
+
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
 
@@ -38,6 +42,7 @@ public class Main{
         ItemList.ITEMS.register(modEventBus);
         BlockList.BLOCKS.register(modEventBus);
         BiomeList.BIOMES.register(modEventBus);
+        TileEntityTypeList.TILEENTITIES.register(modEventBus);
     }
     
     @SubscribeEvent
@@ -78,6 +83,7 @@ public class Main{
         RenderTypeLookup.setRenderLayer(BlockList.CHERRYDOOR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(BlockList.CHERRYTRAPDOOR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(BlockList.CHERRYSAPLING.get(), RenderType.getCutout());
+        ClientRegistry.bindTileEntityRenderer(TileEntityTypeList.CHERRYSIGNENTITY.get(), SignTileEntityRenderer::new);
     }
     
     public void onServerStarting(final FMLServerStartingEvent event) {
